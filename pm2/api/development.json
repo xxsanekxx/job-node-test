@@ -1,0 +1,18 @@
+[
+  {
+    "name": "api",
+    "instances": "1",
+    "script": "./backend/app/api/index.js",
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "args": [],
+    "node_args": "--harmony",
+    "merge_logs": true,
+    "error_file": "./runtime/pm2/api/api.stderr.log",
+    "out_file": "./runtime/pm2/api/api.stdout.log",
+    "pid_file": "./runtime/pid/api/api.pid",
+    "watch": false,
+    "log_date_format": "YYYY-MM-DD HH:mm:ss Z"
+  }
+]

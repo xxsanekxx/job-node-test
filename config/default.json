@@ -1,0 +1,38 @@
+{
+  "database": {
+    "production": {
+      "username": "postgres",
+      "password": "pass",
+      "database": "data",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    },
+    "development": {
+      "username": "postgres",
+      "password": "pass",
+      "database": "data_dev",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    },
+    "test": {
+      "username": "postgres",
+      "password": "pass",
+      "database": "data_test",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    }
+  },
+  "api": {
+    "sessionSecret": "session secret",
+    "host": "localhost",
+    "port": 3000,
+    "permissions": {
+      "user": 0
+    }
+  },
+  "orderStatuses": {
+    "new": 0,
+    "processing": 1,
+    "paid": 2
+  }
+}
